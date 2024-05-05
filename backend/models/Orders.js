@@ -22,7 +22,10 @@ const OrderSchema = new mongoose.Schema({
       },Orderdetails:{
             type:String,
             required:true
-      },Total:{
+      },Patmentmethod:{
+          type:String,
+          required:true
+     },Total:{
             type:Number,
             required:true
       }
